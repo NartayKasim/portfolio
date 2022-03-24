@@ -1,0 +1,28 @@
+.message {
+   margin-left: 15rem;
+   font-family: var(--font-family--secondary);
+   text-transform: uppercase;
+   font-weight: 600;
+   color: white;
+   font-size: 14px;
+}
+
+.error {
+   width: 100%;
+   background: rgba(145, 16, 16, 0.562);
+   border-radius: 5px;
+   padding: 0.5rem;
+   padding-top: 0.8rem;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.success {
+   width: 100%;
+   background: rgba(40, 150, 40, 0.644);
+   border-radius: 5px;
+   padding: 0.5rem;
+   padding-top: 0.8rem;
+   display: flex;
+   justify-content: flex-end;
+}

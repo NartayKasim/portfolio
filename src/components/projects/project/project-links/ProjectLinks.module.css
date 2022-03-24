@@ -1,0 +1,6 @@
+.projectLinks {
+   display: flex;
+   width: 100%;
+   gap: 2rem;
+   padding-top: 2rem;
+}

@@ -1,0 +1,36 @@
+.row {
+   position: relative;
+   color: var(--color--default);
+   font-family: var(--font-family--default);
+   font-weight: var(--font-weight--bold);
+   font-size: 12px;
+   font-weight: 700;
+   text-transform: uppercase;
+   display: flex;
+   align-items: center;
+   gap: 0.75rem;
+   cursor: pointer;
+}
+
+.row:hover {
+   color: #769492;
+}
+
+#light:hover {
+   color: var(--cultured);
+}
+
+.row > span {
+   padding-bottom: 0.09rem;
+}
+
+.icon {
+   width: 1.5rem;
+   padding-bottom: 0.5rem;
+}
+
+#resume {
+   width: 1.4rem;
+   height: 2.1rem;
+   padding-bottom: 0.6rem;
+}

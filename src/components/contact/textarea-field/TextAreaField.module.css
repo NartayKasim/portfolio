@@ -1,0 +1,30 @@
+.textAreaField {
+   padding-top: 0.5rem;
+   display: flex;
+   height: 20rem;
+}
+
+.label {
+   width: 15rem;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 14px;
+}
+
+.textarea {
+   height: 20rem;
+   border-radius: 5px;
+   background: #b9b2c4;
+   resize: none;
+   box-shadow: none;
+   outline: none;
+   border: none;
+   flex-grow: 1;
+   font-family: var(--font-family--secondary);
+   padding: 1rem;
+   font-size: 14px;
+}
+
+.textarea:focus {
+   outline: 2px solid #a997c7;
+}

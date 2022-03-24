@@ -1,0 +1,6 @@
+.top {
+   display: flex;
+   padding: 2rem;
+   border-radius: 5px 5px 0 0;
+   background: rgb(180, 175, 199);
+}

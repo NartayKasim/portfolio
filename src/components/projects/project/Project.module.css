@@ -1,0 +1,19 @@
+.project {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+   /* box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.411),
+      1px 1px 3px rgba(24, 24, 24, 0.788); */
+   background: url("../../../assets/bg-5.png");
+   background-position: top;
+   background-size: 100%;
+   border-bottom: 5px solid rgb(180, 175, 199);
+   /* background: var(--gainsboro); */
+}
+
+.card {
+   position: relative;
+   min-height: 50rem;
+   border-radius: 5px;
+}

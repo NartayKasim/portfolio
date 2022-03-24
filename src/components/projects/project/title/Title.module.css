@@ -1,0 +1,8 @@
+.title {
+   position: relative;
+   z-index: 2;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 30px;
+   text-shadow: 1px 1px rgba(0, 0, 0, 0.096);
+}

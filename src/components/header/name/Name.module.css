@@ -1,0 +1,16 @@
+.name {
+   position: relative;
+   display: flex;
+   text-transform: uppercase;
+   font-size: 5rem;
+   font-weight: 700;
+   line-height: 60px;
+   padding: 0 0.5rem;
+   padding-top: 1rem;
+}
+
+@media only screen and (max-width: 400px) {
+   .name {
+      font-size: 4.5rem;
+   }
+}

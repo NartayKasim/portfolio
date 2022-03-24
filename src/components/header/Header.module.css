@@ -1,0 +1,29 @@
+.headerOuter {
+   position: relative;
+}
+
+.headerInner {
+   position: relative;
+   width: min(110rem, 100%);
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.textDecoratorWrapper {
+   bottom: 0;
+   left: 0;
+}
+
+@media only screen and (max-width: 1125px) {
+   .headerInner {
+      width: min(70rem, 100%);
+   }
+}
+
+@media only screen and (max-width: 800px) {
+   .textDecoratorWrapper {
+      display: none;
+   }
+}
