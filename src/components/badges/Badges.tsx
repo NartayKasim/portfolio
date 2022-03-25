@@ -85,6 +85,7 @@ export function Email() {
    return (
       <div
          className={classes.row}
+         id={classes.light}
          onMouseEnter={() => setHover(true)}
          onMouseLeave={() => setHover(false)}
          onClick={onEmailClick}
@@ -109,6 +110,7 @@ export function LinkedIn({ address }: WWWProps) {
    return (
       <div
          className={classes.row}
+         id={classes.light}
          onMouseEnter={() => setHover(true)}
          onMouseLeave={() => setHover(false)}
          onClick={onLinkedInClick}
@@ -133,6 +135,7 @@ export function Resume({ address }: WWWProps) {
    return (
       <div
          className={classes.row}
+         id={classes.light}
          onMouseEnter={() => setHover(true)}
          onMouseLeave={() => setHover(false)}
          onClick={onResumeClick}
