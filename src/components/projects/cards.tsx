@@ -83,7 +83,7 @@ const cards: CardsObj[] = [
          "Formatting and syntax highlighting handled by Monaco Editor - which is the same technology utilized by VS Code.",
          "Supports NPM packages.",
       ],
-      www: "",
+      www: "https://www.silica.live",
       repo: "https://github.com/NartayKasim/silica",
    },
 ];
